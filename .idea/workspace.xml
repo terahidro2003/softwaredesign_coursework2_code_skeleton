@@ -4,45 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee516796-436d-4ebb-a976-6ecba3a0d037" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/softwaredesign2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/AuthEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bike/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bike/BikeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bike/BikeReservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bike/BikeReservationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/DatabaseDAOInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/DatabaseQueryEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/GDPRProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/GDPRProxyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/database/MySQLDatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/EventInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/EventProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/EventProxyInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/misc/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notifications/BikeReturnNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notifications/Notification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notifications/NotificationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/notifications/SubscriptionExpiredNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payment/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payment/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payment/Subscription.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/payment/SubscriptionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/support/SupportRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/support/SupportRequestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/MobileAppInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/UserInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/WebAppInterface.java" afterDir="false" />
+    <list default="true" id="ee516796-436d-4ebb-a976-6ecba3a0d037" name="Changes" comment="Init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bike/BikeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bike/BikeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bike/BikeReservation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bike/BikeReservation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bike/BikeReservationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bike/BikeReservationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payment/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payment/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/payment/SubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/payment/SubscriptionController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,10 +94,24 @@
       <updated>1701294991168</updated>
       <workItem from="1701294992311" duration="10572000" />
       <workItem from="1701355337769" duration="1054000" />
+      <workItem from="1701361023893" duration="3078000" />
+      <workItem from="1701544746168" duration="1070000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <created>1701361122070</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701361122070</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init" />
+    <option name="LAST_COMMIT_MESSAGE" value="Init" />
   </component>
 </project>

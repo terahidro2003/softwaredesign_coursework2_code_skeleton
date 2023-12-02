@@ -1,11 +1,21 @@
 package bike;
 
+import events.EventInterface;
 import misc.Controller;
 
 import java.util.List;
 import java.util.UUID;
 
 public class BikeController implements Controller<Bike> {
+
+    /**
+     * @param event
+     */
+    @Override
+    public void route(EventInterface event) {
+
+    }
+
     /**
      * @param creatable
      */

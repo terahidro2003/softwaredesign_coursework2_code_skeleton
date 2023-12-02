@@ -17,6 +17,7 @@ public class GDPRProxy implements GDPRProxyInterface{
      */
     @Override
     public void passDatabaseQuery(DatabaseQueryEvent event) {
+        minimizeData(event);
         if(checkGDPRCompliance(event))
         {
             databaseService.customOperation(event.getQuery());
@@ -30,5 +31,13 @@ public class GDPRProxy implements GDPRProxyInterface{
     @Override
     public boolean checkGDPRCompliance(DatabaseQueryEvent event) {
         return false;
+    }
+
+    /**
+     * @param event
+     */
+    @Override
+    public void minimizeData(DatabaseQueryEvent event) {
+
     }
 }

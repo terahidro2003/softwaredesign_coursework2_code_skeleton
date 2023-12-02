@@ -3,8 +3,9 @@ package payment;
 import auth.User;
 import events.EventInterface;
 import misc.Controller;
+import notifications.NotificationController;
+import notifications.SubscriptionExpiredNotification;
 
-import java.util.Collections;
 import java.util.List;
 import java.util.UUID;
 
@@ -15,6 +16,15 @@ public class SubscriptionController implements Controller<Subscription> {
     {
         if(controller == null) controller = new SubscriptionController();
         return controller;
+    }
+
+    public void notify(Subscription subscription)
+    {
+        if(subscription.getPayment().status.equals("UNPAID"))
+        {
+            NotificationController.getInstance().create(new SubscriptionExpiredNotification());
+            PaymentController.getInstance().create(new Payment(10.00));
+        }
     }
 
     public void cancelSubscription(){}
